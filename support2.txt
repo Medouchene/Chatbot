@@ -1,0 +1,8 @@
+ executer l app.py 
+
+ PS C:\Users\LENOVO\Desktop\AI-Chatbot\chatbot_v2> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+PS C:\Users\LENOVO\Desktop\AI-Chatbot\chatbot_v2> mvenv\Scripts\activate
+
+
+ #"python -m http.server" sur l'envirmnt vertuel
+ acceder au localhost "http://localhost:8000/index.html"

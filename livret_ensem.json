@@ -1,0 +1,154 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Bonjour",
+            "Salut",
+            "Hello",
+            "Comment ça va?",
+            "Est-ce que quelqu'un est là?",
+            "Coucou",
+            "Bon matin",
+            "Hey",
+            "Comment vas-tu?",
+            "Bonsoir",
+            "Salut à tous",
+            "Hello, quelqu'un ici?",
+            "Salut, j'ai besoin d'aide",
+            "Bonjour, vous êtes disponible?",
+            "Salut, assistance requise",
+            "Bonjour tout le monde",
+            "Une bonne journée à tous",
+            "Comment va votre équipe?"
+         ],
+         "responses": [
+            "Bonjour! Comment puis-je vous aider?",
+            "Salut! Que puis-je faire pour vous?",
+            "Bonjour, n'hésitez pas à poser vos questions.",
+            "Hello! Comment puis-je vous assister aujourd'hui?",
+            "Bienvenue, que puis-je faire pour vous?",
+            "Salut! C'est un plaisir de vous aider.",
+            "Bonjour, je suis là pour répondre à toutes vos interrogations."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "goodbye",
+         "patterns": [
+            "Au revoir",
+            "À bientôt",
+            "Bye",
+            "Bonne journée",
+            "Je dois partir",
+            "On se reparle plus tard",
+            "Adieu",
+            "Ciao",
+            "Passez une bonne journée",
+            "Merci et au revoir",
+            "À plus tard",
+            "On reste en contact",
+            "Je reviendrai plus tard",
+            "Fin de conversation",
+            "Bonne soirée",
+            "On se revoit bientôt"
+         ],
+         "responses": [
+            "Au revoir, à bientôt!",
+            "Bonne journée! N'hésitez pas à revenir si vous avez d'autres questions.",
+            "Prenez soin de vous, à la prochaine!",
+            "Ciao, à bientôt!",
+            "Merci de votre visite, à bientôt!",
+            "Au plaisir de vous revoir!",
+            "Bonne continuation et à bientôt!"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "admission",
+         "patterns": [
+            "Comment postuler à l'ENSEM?",
+            "Quelles sont les conditions d'admission?",
+            "Comment s'inscrire?",
+            "Procédure d'admission",
+            "Quels sont les critères pour entrer à l'ENSEM?",
+            "Quelles étapes pour l'admission?",
+            "Comment puis-je m'inscrire dans votre établissement?",
+            "Quels documents sont nécessaires pour l'inscription?",
+            "Admission à l'ENSEM",
+            "Dates importantes pour les inscriptions",
+            "Puis-je m'inscrire en ligne?",
+            "Conditions pour les étudiants étrangers",
+            "Quels sont les délais pour s'inscrire?",
+            "Comment fonctionne la sélection?",
+            "Faut-il passer un concours?",
+            "Les admissions sont-elles ouvertes actuellement?",
+            "Comment se préparer pour l'admission?",
+            "Quelle est la date limite d'inscription?"
+         ],
+         "responses": [
+            "Pour postuler à l'ENSEM, les étapes incluent la contribution à la vie étudiante via [messervices.etudiant.gouv.fr](https://www.messervices.etudiant.gouv.fr), l'inscription en ligne, et le dépôt de pièces justificatives.",
+            "Les documents requis incluent : relevé de notes du baccalauréat, diplômes obtenus, pièce d'identité, et attestation JDC.",
+            "Les admissions sur titres ou par concours sont disponibles. Consultez [inscriptions.univ-lorraine.fr](https://inscriptions.univ-lorraine.fr) pour finaliser votre inscription.",
+            "Pour les étudiants internationaux, un processus d'accompagnement dédié est proposé.",
+            "Les admissions pour le cycle préparatoire et le concours commun polytechnique sont décrites sur notre site officiel."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "hebergement",
+         "patterns": [
+            "Y a-t-il des logements étudiants?",
+            "Comment trouver un hébergement à proximité?",
+            "Résidences universitaires disponibles?",
+            "Quels sont les coûts des logements?",
+            "Options d'hébergement pour les étudiants internationaux",
+            "Est-ce que vous offrez des logements sur le campus?",
+            "Aide pour le logement étudiant",
+            "Logements à proximité de l'ENSEM",
+            "Où puis-je loger pendant mes études?",
+            "Existe-t-il une aide financière pour le logement?",
+            "Proposez-vous des solutions pour les colocations?",
+            "Quels sont les avantages de 'La Rez'?",
+            "Peut-on visiter les résidences étudiantes?",
+            "Quels services inclut le logement étudiant?",
+            "Les logements sont-ils meublés?"
+         ],
+         "responses": [
+            "L'ENSEM collabore avec 'La Rez', une résidence offrant des logements sécurisés, meublés ou non, avec des surfaces de 25 à 37 m².",
+            "Les tarifs varient de 410€ à 450€ par mois, charges comprises (chauffage, eau, Internet).",
+            "Pour réserver ou visiter, contactez le +33 3 83 44 05 21 ou visitez [la-rez.fr](http://www.la-rez.fr).",
+            "La Rez inclut des services comme une laverie, un prêt de vélos, et un potager collectif pour les résidents.",
+            "Des colocations sont possibles avec des tarifs avantageux. Consultez le site pour plus de détails."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "contacts",
+         "patterns": [
+            "Comment puis-je contacter l'ENSEM?",
+            "Numéro de téléphone de l'ENSEM",
+            "Adresse e-mail pour les admissions",
+            "Où est situé l'ENSEM?",
+            "Quels sont vos horaires de bureau?",
+            "Puis-je visiter le campus?",
+            "Qui contacter pour des questions générales?",
+            "Coordonnées de l'ENSEM",
+            "Contactez-vous par chat?",
+            "Puis-je vous appeler?",
+            "Y a-t-il un service d'accueil pour les nouveaux étudiants?",
+            "Est-ce que vous proposez une assistance en ligne?",
+            "Comment obtenir un rendez-vous avec un responsable pédagogique?",
+            "Horaires d'ouverture de l'école"
+         ],
+         "responses": [
+            "Vous pouvez nous joindre au : +33 3 72 74 44 00 ou par email à : ensem-contact@univ-lorraine.fr.",
+            "L'école est située au 2 Avenue de la Forêt de Haye, 54500 Vandœuvre-lès-Nancy.",
+            "Horaires : du lundi au vendredi, 8h00-12h15 et 13h00-16h30. Fermé le week-end.",
+            "Pour toute assistance en ligne, visitez notre site officiel ou contactez-nous par mail.",
+            "Des visites du campus peuvent être organisées sur demande. Contactez l'accueil pour plus d'informations."
+         ],
+         "context_set": ""
+      }
+   ]
+}

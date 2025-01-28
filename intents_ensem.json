@@ -1,0 +1,288 @@
+{
+   "intents": [
+      {
+         "tag": "greeting",
+         "patterns": [
+            "Bonjour",
+            "Salut",
+            "Hello",
+            "ça va?",
+            "Est-ce que quelqu'un est la?",
+            "Coucou",
+            "Bon matin",
+            "Hey",
+            "Bonsoir",
+            "Salut a tous",
+            "Hello, quelqu'un ici?",
+            "Salut, j'ai besoin d'aide",
+            "Bonjour, vous êtes disponible?",
+            "Salut, assistance requise"
+         ],
+         "responses": [
+            "Bonjour! Comment puis-je vous aider?",
+            "Salut! Que puis-je faire pour vous?",
+            "Bonjour, n'hesitez pas a poser vos questions.",
+            "Hello! Comment puis-je vous assister aujourd'hui?",
+            "Bienvenue, que puis-je faire pour vous?"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "goodbye",
+         "patterns": [
+            "Au revoir",
+            "a bientôt",
+            "Bye",
+            "Bonne journee",
+            "Je dois partir",
+            "On se reparle plus tard",
+            "Adieu",
+            "Ciao",
+            "Passez une bonne journee",
+            "Merci et au revoir",
+            "a plus tard",
+            "On reste en contact"
+         ],
+         "responses": [
+            "Au revoir, a bientôt!",
+            "Bonne journee! N'hesitez pas a revenir si vous avez d'autres questions.",
+            "Prenez soin de vous, a la prochaine!",
+            "Ciao, a bientôt!",
+            "Merci de votre visite, a bientôt!"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "thanks",
+         "patterns": [
+            "Merci",
+            "Merci beaucoup",
+            "C'est gentil",
+            "Je vous remercie",
+            "Merci pour votre aide",
+            "Merci infiniment",
+            "Merci bien",
+            "C'etait tres utile",
+            "Merci enormement",
+            "Je vous suis reconnaissant",
+            "Merci pour votre temps"
+         ],
+         "responses": [
+            "Avec plaisir! N'hesitez pas si vous avez d'autres questions.",
+            "De rien, je suis la pour vous aider.",
+            "Merci a vous! Je reste disponible si necessaire.",
+            "Avec plaisir, bonne continuation!",
+            "Ravi d'avoir pu vous aider!"
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "admission",
+         "patterns": [
+            "Comment postuler a l'ENSEM?",
+            "Quelles sont les conditions d'admission?",
+            "Comment s'inscrire?",
+            "Procedure d'admission",
+            "Quels sont les criteres pour entrer a l'ENSEM?",
+            "Quelles etapes pour l'admission?",
+            "Comment puis-je m'inscrire dans votre etablissement?",
+            "Quels documents sont necessaires pour l'inscription?",
+            "Admission a l'ENSEM",
+            "Dates importantes pour les inscriptions",
+            "Puis-je m'inscrire en ligne?",
+            "Conditions pour les etudiants etrangers",
+            "Quels sont les delais pour s'inscrire?",
+            "Comment fonctionne la selection?"
+         ],
+         "responses": [
+            "Pour postuler a l'ENSEM, veuillez visiter notre page d'admission sur le site officiel. Vous y trouverez les criteres et les etapes d'inscription.",
+            "Les conditions d'admission varient selon le programme choisi. Consultez notre site pour plus d'informations.",
+            "Vous pouvez egalement contacter notre bureau des admissions pour une assistance personnalisee.",
+            "Pour les etudiants internationaux, les demarches specifiques sont decrites sur notre site."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "programmes",
+         "patterns": [
+            "Quels programmes propose l'ENSEM?",
+            "Liste des formations a l'ENSEM",
+            "Quels diplômes puis-je obtenir a l'ENSEM?",
+            "Quels sont les specialisations disponibles?",
+            "Offres de cours a l'ENSEM",
+            "Enseignements disponibles",
+            "Parlez-moi des programmes d'etudes",
+            "Quelles sont les filieres proposees?",
+            "Que puis-je etudier ici?",
+            "Y a-t-il des doubles diplômes?",
+            "Programmes de master",
+            "Formations continues disponibles",
+            "Proposez-vous des cours en ligne?"
+         ],
+         "responses": [
+            "L'ENSEM propose des formations en energie, genie electrique, genie mecanique et en science des donnees. Pour plus d'informations, consultez notre site web.",
+            "Les specialisations incluent genie electrique, energie renouvelable, science des donnees et bien plus. Rendez-vous sur notre page d'admission pour les details.",
+            "Vous trouverez des options de double diplôme et des cours orientes vers les industries modernes.",
+            "Nous proposons egalement des formations continues pour les professionnels."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "bourses",
+         "patterns": [
+            "Y a-t-il des bourses disponibles?",
+            "Quels types d'aides financieres proposez-vous?",
+            "Puis-je obtenir une bourse?",
+            "Aides pour etudiants",
+            "Bourses pour etudiants internationaux",
+            "Financements possibles",
+            "Programmes de soutien financier",
+            "Est-ce que des reductions sont proposees?"
+         ],
+         "responses": [
+            "Oui, plusieurs bourses sont disponibles pour soutenir les etudiants. Consultez notre section bourses sur le site officiel.",
+            "Les etudiants internationaux peuvent egalement être eligibles a certaines bourses.",
+            "N'hesitez pas a contacter le service des finances etudiantes pour des conseils personnalises."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "stages",
+         "patterns": [
+            "L'ENSEM aide-t-elle a trouver des stages?",
+            "Puis-je faire un stage pendant mes etudes?",
+            "Opportunites de stage",
+            "Stages pour les etudiants",
+            "Y a-t-il un service de placement pour les stages?",
+            "Stages en entreprise",
+            "Est-ce que l'ecole a des partenariats pour les stages?"
+         ],
+         "responses": [
+            "Oui, l'ENSEM accompagne les etudiants dans leur recherche de stages grâce a son reseau d'entreprises partenaires.",
+            "Des stages sont obligatoires dans la plupart des programmes pour renforcer l'experience pratique.",
+            "Le service carrieres est la pour vous guider dans votre recherche de stages et d'opportunites professionnelles."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "emplois",
+         "patterns": [
+            "Est-ce que l'ecole propose des offres d'emploi?",
+            "Aide pour trouver un emploi apres les etudes",
+            "Placement apres le diplôme",
+            "Y a-t-il des opportunites d'emploi?",
+            "Carrieres pour les diplômes",
+            "Partenariats entreprises pour les emplois",
+            "Services pour l'emploi"
+         ],
+         "responses": [
+            "L'ENSEM travaille en collaboration avec de nombreuses entreprises pour offrir des opportunites d'emploi aux diplômes.",
+            "Le service carrieres organise regulierement des forums de l'emploi et des sessions de recrutement.",
+            "Vous pouvez egalement acceder a notre portail des alumni pour explorer les opportunites professionnelles.",
+            "Des ateliers de redaction de CV et de preparation aux entretiens sont organises pour aider les etudiants a se demarquer."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "club",
+         "patterns": [
+            "Quels clubs etudiants y a-t-il?",
+            "Activites parascolaires disponibles",
+            "Y a-t-il des clubs de sport?",
+            "Clubs a l'ENSEM",
+            "Puis-je rejoindre un club?",
+            "Vie etudiante et associations",
+            "Quels sont les clubs pour les etudiants internationaux?"
+         ],
+         "responses": [
+            "L'ENSEM propose divers clubs, notamment en sport, robotique, culture, et entrepreneuriat. Decouvrez la liste complete sur notre site.",
+            "Rejoignez un club pour enrichir votre experience etudiante et rencontrer d'autres passionnes.",
+            "Des clubs specifiques pour les etudiants internationaux sont egalement disponibles.",
+            "Des evenements interclubs sont organises regulierement pour dynamiser la vie etudiante."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "contact",
+         "patterns": [
+            "Comment puis-je contacter l'ENSEM?",
+            "Numero de telephone de l'ENSEM",
+            "Adresse e-mail pour les admissions",
+            "Où est situe l'ENSEM?",
+            "Quels sont vos horaires de bureau?",
+            "Puis-je visiter le campus?",
+            "Qui contacter pour des questions generales?",
+            "Coordonnees de l'ENSEM",
+            "Contactez-vous par chat?"
+         ],
+         "responses": [
+            "Vous pouvez nous joindre au numero suivant : +33 1 23 45 67 89 ou par e-mail a contact@ensem.fr.",
+            "Notre campus est situe au 123 Rue de l'ecole, 75000 Paris, France.",
+            "Les horaires de bureau sont de 9h00 a 17h00 du lundi au vendredi.",
+            "Des visites du campus peuvent être organisees sur rendez-vous. N'hesitez pas a nous contacter pour en savoir plus."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "hebergement",
+         "patterns": [
+            "Y a-t-il des logements etudiants?",
+            "Comment trouver un hebergement a proximite?",
+            "Residences universitaires disponibles?",
+            "Quels sont les coûts des logements?",
+            "Options d'hebergement pour les etudiants internationaux",
+            "Est-ce que vous offrez des logements sur le campus?",
+            "Aide pour le logement etudiant",
+            "Logements a proximite de l'ENSEM"
+         ],
+         "responses": [
+            "Oui, nous proposons des logements etudiants dans nos residences universitaires. Consultez notre page dediee pour les tarifs et les conditions.",
+            "Des partenariats avec des agences locales facilitent egalement la recherche de logements.",
+            "Pour les etudiants internationaux, un service d'accompagnement est disponible pour les aider a s'installer.",
+            "N'hesitez pas a contacter notre service des residences pour toute question."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "calendrier",
+         "patterns": [
+            "Quels sont les jours feries?",
+            "Calendrier academique de l'ENSEM",
+            "Dates importantes pour cette annee",
+            "Quand commencent les cours?",
+            "Periode des examens",
+            "Vacances scolaires",
+            "Horaires de rentree",
+            "Planning annuel"
+         ],
+         "responses": [
+            "Le calendrier academique complet est disponible sur notre site officiel, sous la section 'Calendrier'.",
+            "Les cours debutent generalement en septembre, avec des examens organises en decembre et mai.",
+            "Les periodes de vacances incluent Noël, Pâques et une pause estivale.",
+            "Pour plus d'informations sur les evenements et les dates importantes, consultez le tableau d'affichage numerique."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "evenements",
+         "patterns": [
+            "Quels evenements sont organises?",
+            "Y a-t-il des conferences?",
+            "evenements etudiants a venir",
+            "Forums de recrutement organises par l'ecole",
+            "Est-ce que vous faites des portes ouvertes?",
+            "Quand sont les journees portes ouvertes?",
+            "Programme culturel sur le campus",
+            "Sessions d'information pour les etudiants"
+         ],
+         "responses": [
+            "Des journees portes ouvertes, des forums de l'emploi, et des conferences sont regulierement organises. Consultez notre agenda en ligne pour les details.",
+            "Ne manquez pas nos evenements culturels et sportifs pour enrichir votre vie etudiante.",
+            "Les conferences sur les dernieres innovations scientifiques sont un point fort de notre calendrier annuel.",
+            "Vous pouvez egalement participer a des ateliers et hackathons organises par nos clubs etudiants."
+         ],
+         "context_set": ""
+      }
+   ]
+}
+
